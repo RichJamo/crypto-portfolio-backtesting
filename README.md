@@ -1,4 +1,4 @@
-# crypto-portfolio-backtesting
+# Crypto Portfolio Backtesting
 
 This is my initial attempt at adapting my portfolio construction strategies from the world of stocks into the world of crypto.
 
