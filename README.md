@@ -9,7 +9,7 @@ However, the QM strategy can be run with the exact same coding, except that one 
 
 For the QV strategy, I'm curious about exploring different ways of implementing this - perhaps by using TVL vs coin price, or some similar analog of value in the crypto space.
 
-I'm also curious to see how the different weightings affect portfolio construction in crypto. At the moment I also have a crypto portfolio running on shrimpy.io, which is a basic threshold rebalancing system. I'd love to create something a bit more nuanced.
+I'm also curious to see how the different weightings affect portfolio construction in crypto. At the moment I also have a crypto portfolio running on shrimpy.io, which is a basic threshold rebalancing system. I'd love to create something a bit more nuanced here.
 
 For this implementation, I looked to keep as much of the logic the same as before - using ND arrays, starting with the whole universe's prices against time. Again, I've shifted from monthly to daily prices here, because of the much higher volatility in the crypto space.
 Prices are imported via the coingecko API. I have done some readings on alternative sources of prices, and will look to experiment with these soon - potentially Binance, as I might be able to implement trades through them as well.
