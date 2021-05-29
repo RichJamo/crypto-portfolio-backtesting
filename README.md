@@ -4,6 +4,8 @@ This is my initial attempt at adapting my portfolio construction strategies from
 
 Run **backtest_main_program_crypto.py** to see it in action.
 
+OR take a look at the jupyter notebook I've now added to see a high level view of results.
+
 If you look at my JSE share portfolio repository, you can read about the strategy used there, both the QM and the QV variants. Obviously in the world of crypto we don't have financial data to draw on, like we did with the stocks.
 However, the QM strategy can be run with the exact same coding, except that one might want to shift the time frame from monthly down to daily or even less.
 
